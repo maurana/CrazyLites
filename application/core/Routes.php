@@ -7,7 +7,7 @@ class Routes {
 
 	public function __construct() {
 		$url = $this->parseURL();
-	    if(file_exists('../application/controllers/'. $url[0] . '.php') ) {
+	    if(file_exists('../application/controllers/'. isset($url[0]) . '.php') ) {
 	    	$this->controller = $url[0];
 	    	unset($url[0]);
 	    }
