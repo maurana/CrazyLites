@@ -1,10 +1,10 @@
 <?php
 class SQL {
-  private $host = DB_HOST;
-	private $user = DB_USER;
-	private $pass = DB_PASS;
-  private $db_name = DB_NAME;
-  public $conn, $stmt;
+    private $host = DB_HOST;
+    private $user = DB_USER;
+    private $pass = DB_PASS;
+    private $db_name = DB_NAME;
+    public $conn, $stmt;
     
     public function __construct() {
         $this->conn = new mysqli($this->host,$this->user,$this->pass);
