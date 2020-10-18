@@ -1,2 +1,2 @@
 # CrazyLites
-PHP mini framework for REST API Microservice Architecture
+PHP mini framework for Microservices
